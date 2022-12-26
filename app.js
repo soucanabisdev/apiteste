@@ -91,7 +91,7 @@ app.post('/pipe-pedidos', async (req, res) => {
 
   phaseId = req.body.data.to.id
 
-/*if(phaseId == "310523364"){ 
+  /* if(phaseId == "310523364"){ 
    
     const options = {
     method: "POST",
@@ -106,7 +106,7 @@ app.post('/pipe-pedidos', async (req, res) => {
     res.status(200).end()
   }
 
-  if(phaseId == "311232364"){ 
+   if(phaseId == "311232364"){ 
    
     const options = {
     method: "POST",
@@ -117,7 +117,7 @@ app.post('/pipe-pedidos', async (req, res) => {
     }
 
     await axios(options)   
- */ }
+  }*/
 
   res.status(200).end()
 
@@ -150,7 +150,7 @@ app.post('/pipe-servicos', async (req, res) => {
 
   phaseId = req.body.data.to.id
 
- /* if(phaseId == "311283175"){
+  /* if(phaseId == "311283175"){
 
     const options = {
     method: "POST",
@@ -162,7 +162,7 @@ app.post('/pipe-servicos', async (req, res) => {
 
     await axios(options)
   }
-*/
+  */
   res.status(200).end()
 
   return api
@@ -192,7 +192,7 @@ app.post('/pipe-liga', async (req, res) => {
 
   phaseId = req.body.data.to.id
 
-/*  if(phaseId == "315282518"){ //enviar boleto
+  /* if(phaseId == "315282518"){ //enviar boleto
 
     const options = {
     method: "POST",
@@ -228,8 +228,8 @@ app.post('/pipe-liga', async (req, res) => {
 
     await axios(options)
 
-  }
-/*
+  }*/
+
   res.status(200).end()
   return api
 
